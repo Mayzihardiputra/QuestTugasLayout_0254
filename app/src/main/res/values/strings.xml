@@ -8,5 +8,13 @@
     <string name="phone_1">20240140254</string>
     <string name="loc_1">Condong Catur, Sleman</string>
 
+    <string name="name_2">Nate</string>
+    <string name="phone_2">20240140255</string>
+    <string name="loc_2">Kasihan, Bantul</string>
+
+    <string name="name_3">Kate</string>
+    <string name="phone_3">20240140256</string>
+    <string name="loc_3">Depok, Sleman</string>
+
 
 </resources>
