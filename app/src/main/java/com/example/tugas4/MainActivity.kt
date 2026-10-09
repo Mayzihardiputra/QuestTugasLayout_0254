@@ -90,3 +90,12 @@ fun InfoCard(
                     fontSize = 14.sp
                 )
             }
+
+            Image(
+                painter = painterResource(id = R.drawable.umylogo),
+                contentDescription = null,
+                modifier = Modifier.size(60.dp)
+            )
+        }
+    }
+}
