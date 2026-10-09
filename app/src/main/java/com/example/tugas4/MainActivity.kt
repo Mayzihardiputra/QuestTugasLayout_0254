@@ -43,4 +43,11 @@ fun InfoCard(
     phoneColor: Color?,
     locationResId: Int,
     locationColor: Color
-)
+) {
+    Card(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(vertical = 6.dp),
+        shape = RoundedCornerShape(16.dp),
+        colors = CardDefaults.cardColors(containerColor = backgroundColor)
+    )
