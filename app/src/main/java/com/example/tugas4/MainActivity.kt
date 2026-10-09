@@ -63,3 +63,23 @@ fun InfoCard(
                 contentDescription = null,
                 modifier = Modifier.size(60.dp)
             )
+
+            Column(
+                modifier = Modifier
+                    .weight(1f)
+                    .padding(horizontal = 12.dp)
+            ) {
+                Text(
+                    text = stringResource(id = nameResId),
+                    color = colorResource(id = R.color.text_white),
+                    fontSize = 20.sp,
+                    fontWeight = FontWeight.Bold
+                )
+
+                if (phoneResId != null && phoneColor != null) {
+                    Text(
+                        text = stringResource(id = phoneResId),
+                        color = phoneColor,
+                        fontSize = 14.sp
+                    )
+                }
