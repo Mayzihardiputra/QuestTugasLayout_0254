@@ -83,3 +83,10 @@ fun InfoCard(
                         fontSize = 14.sp
                     )
                 }
+
+                Text(
+                    text = stringResource(id = locationResId),
+                    color = locationColor,
+                    fontSize = 14.sp
+                )
+            }
