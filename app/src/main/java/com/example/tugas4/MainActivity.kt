@@ -123,3 +123,44 @@ fun MainScreen() {
                 fontWeight = FontWeight.SemiBold,
                 modifier = Modifier.padding(bottom = 20.dp)
             )
+
+            InfoCard(
+                backgroundColor = colorResource(id = R.color.card_grey),
+                nameResId = R.string.name_1,
+                phoneResId = null,
+                phoneColor = null,
+                locationResId = R.string.loc_1,
+                locationColor = colorResource(id = R.color.text_yellow)
+            )
+
+            InfoCard(
+                backgroundColor = colorResource(id = R.color.card_purple),
+                nameResId = R.string.name_2,
+                phoneResId = R.string.phone_2,
+                phoneColor = colorResource(id = R.color.text_cyan),
+                locationResId = R.string.loc_2,
+                locationColor = colorResource(id = R.color.text_yellow)
+            )
+
+            InfoCard(
+                backgroundColor = colorResource(id = R.color.card_blue),
+                nameResId = R.string.name_3,
+                phoneResId = R.string.phone_3,
+                phoneColor = colorResource(id = R.color.text_cyan),
+                locationResId = R.string.loc_3,
+                locationColor = colorResource(id = R.color.text_white)
+            )
+
+            InfoCard(
+                backgroundColor = colorResource(id = R.color.card_green),
+                nameResId = R.string.name_4,
+                phoneResId = R.string.phone_4,
+                phoneColor = colorResource(id = R.color.text_cyan),
+                locationResId = R.string.loc_4,
+                locationColor = colorResource(id = R.color.text_white)
+            )
+        }
+
+
+    }
+}
