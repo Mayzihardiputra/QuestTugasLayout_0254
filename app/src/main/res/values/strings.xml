@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">tugas4</string>
+    <string name="app_name">My Application</string>
+    <string name="title_ti">Teknologi Informasi</string>
+    <string name="title_umy">Universitas Muhammadiyah Yogyakarta</string>
+    <string name="copyright">Copyright, 2026</string>
+
+
 </resources>
