@@ -161,6 +161,10 @@ fun MainScreen() {
             )
         }
 
-
+        Text(
+            text = stringResource(id = R.string.copyright),
+            fontSize = 12.sp,
+            modifier = Modifier.padding(vertical = 16.dp)
+        )
     }
 }
