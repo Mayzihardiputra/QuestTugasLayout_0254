@@ -34,3 +34,13 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
+
+@Composable
+fun InfoCard(
+    backgroundColor: Color,
+    nameResId: Int,
+    phoneResId: Int?,
+    phoneColor: Color?,
+    locationResId: Int,
+    locationColor: Color
+)
